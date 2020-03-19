@@ -10,15 +10,15 @@ while True:
 
     def coronaInfo(select):
         print('****************************************')
-        if select == "1":
+        if select == "1" or select == '01':
             return ci.get_stats()
-        elif select == "2":
+        elif select == "2" or select == '02':
             return ci.get_table()
-        elif select == "3":
+        elif select == "3" or select == '03':
             return ci.get_news()
-        elif select == "4":
+        elif select == "4" or select == '04':
             return ci.get_advice()
-        elif select == "5":
+        elif select == "5" or select == '05':
             exit()
         else:
             print("Please Select right One")
